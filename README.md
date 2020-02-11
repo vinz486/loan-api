@@ -11,7 +11,7 @@ Submit a loan request using a POST message on '/loan' endpoint:
 ```bash
 $ curl -X POST   http://127.0.0.1:8080/loan -H 'Bigbank-Apikey: TOKEN-ABC' -H 'Content-Length: 36' -H 'Content-Type: application/json' -H 'Host: 127.0.0.1:8080' -d '{
   "market": "en",
-  "amount": 8000
+  "amount": 1000
   }'
 
 ```
